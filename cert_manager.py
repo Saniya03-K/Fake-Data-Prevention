@@ -30,7 +30,7 @@ def load_or_generate_certificate():
 
     subject = issuer = x509.Name([
         x509.NameAttribute(NameOID.COUNTRY_NAME, "IT"),
-        x509.NameAttribute(NameOID.ORGANIZATION_NAME, "University of Catania"),
+        x509.NameAttribute(NameOID.ORGANIZATION_NAME, "University of Messina"),
         x509.NameAttribute(NameOID.COMMON_NAME, "Sensor_01"),
     ])
 
